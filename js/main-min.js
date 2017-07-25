@@ -1,0 +1,1 @@
+function batteryCharge(){var e=document.getElementById("battery");e.innerHTML="&#xf244;",setTimeout(function(){e.innerHTML="&#xf243;"},1e3),setTimeout(function(){e.innerHTML="&#xf242;"},2e3),setTimeout(function(){e.innerHTML="&#xf241;"},3e3),setTimeout(function(){e.innerHTML="&#xf240;"},4e3)}batteryCharge(),setInterval(batteryCharge,5e3);
